@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript"> 
+//<![CDATA[
+var notifierJsScheme = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + notifierJsScheme + "hoptoadapp.com/javascripts/notifier.js' type='text/javascript'%3E%3C/script%3E"));
+//]]>
+</script> 
+
+<script type="text/javascript">
+  Hoptoad.setKey('4f635244ac63ec0555ea126635a04d28');
+  Hoptoad.setHost('hoptoadapp.com');
+  Hoptoad.setEnvironment('production');
+    Hoptoad.setErrorDefaults({
+      url: "https://dailyjar.heroku.com/about",
+      component: "pages",
+      action: "about"
+  });
+</script>
+
+  <title>Daily Jar</title>
+  <!--[if (!IE)|(gte IE 8)]><!-->
+<link href="/assets/screen-datauri.css?1293279562" media="all" rel="stylesheet" type="text/css" />
+<!--<![endif]-->
+<!--[if lte IE 7]>
+<link href="/assets/screen.css?1293279562" media="all" rel="stylesheet" type="text/css" />
+<![endif]-->
+  <meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="zGDDl5ukiTQyAyKFEemiPPzu2h25p4cCvd/JC24bv34="/>
+	<link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+	
+	<div id="wrapper">
+		<header>
+			<div id="user-bar">
+		<a href="/log_in">Log in</a>
+</div>
+		</header>
+		<section>
+			<h2>Move along.</h2>
+		</section>
+		<footer>
+			&copy; 2011 Imagined, designed, and built by <a href="http://forge38.com">Forge38</a>
+		</footer>
+	</div>
+	<script src="/assets/main.js?1293279562" type="text/javascript"></script>
+</body>
+</html>
